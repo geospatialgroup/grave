@@ -12,8 +12,8 @@ pip install -r requirements.txt
 Follow the steps below to set up the project environment and get started:
 #### Clone the repository:
 ```
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+git clone https://github.com/geospatialgroup/grave.git
+cd grave
 ```
 #### Create a virtual environment (optional):
 ```
