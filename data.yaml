@@ -1,0 +1,7 @@
+train: /home/xulei/datataset/train  # train images (relative to 'path') 4 images
+val: /home/xulei/datataset/valid  # val images (relative to 'path') 4 images
+test: /home/xulei/datataset/test/fj
+nc: 1
+
+# class names
+names: ['grave',]
