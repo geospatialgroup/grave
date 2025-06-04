@@ -278,12 +278,7 @@ The following software tools were used for figure production and post-processing
 
 ### File Description
 
-- `figures1/`: 
-- `figures2/`:   
-- `figures3/`:   
-- `figures4/`:   
-- `figures5/`: 
-
+`Figure 1/` ~ `Figure 5/`: Corresponding to Figures 1 to 5 in the main text, each folder contains the code and data for generating the corresponding pictures.
 
 
 
