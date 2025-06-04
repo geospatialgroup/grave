@@ -191,7 +191,7 @@ def run(
 def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', nargs='+', type=str, default= r'runs/train/yolov9-e3/weights/best.pt', help='model path or triton URL')
-    parser.add_argument('--source', type=str, default=r'G:\目标检测\pic\images\images', help='file/dir/URL/glob/screen/0(webcam)')
+    parser.add_argument('--source', type=str, default=r'D:\code\PyCharm\yolov9-main\demo\img', help='file/dir/URL/glob/screen/0(webcam)')
     parser.add_argument('--data', type=str, default='data.yaml', help='(optional) dataset.yaml path')
     parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[512], help='inference size h,w')
     parser.add_argument('--conf-thres', type=float, default=0.53, help='confidence threshold')
@@ -208,7 +208,7 @@ def parse_opt():
     parser.add_argument('--augment', action='store_true', help='augmented inference')
     parser.add_argument('--visualize', action='store_true', help='visualize features')
     parser.add_argument('--update', action='store_true', help='update all models')
-    parser.add_argument('--project', default=r'G:\目标检测\pic\images\detect', help='save results to project/name')
+    parser.add_argument('--project', default=r'D:\code\PyCharm\yolov9-main\demo\label', help='save results to project/name')
     parser.add_argument('--name', default='exp', help='save results to project/name')
     parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
     parser.add_argument('--line-thickness', default=2, type=int, help='bounding box thickness (pixels)')
